@@ -1,0 +1,2 @@
+import type { MetadataRoute } from 'next';
+export default function manifest(): MetadataRoute.Manifest { return { name: 'NOVAQEN Pharma Industries', short_name: 'NOVAQEN', description: 'Premium pharmaceutical company landing page demo.', start_url: '/', display: 'standalone', background_color: '#041321', theme_color: '#0A2647', icons: [{ src: '/favicon.svg', sizes: 'any', type: 'image/svg+xml' }] }; }

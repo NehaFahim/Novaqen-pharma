@@ -1,0 +1,17 @@
+NOVAQEN PHARMA — V3 PREMIUM DEMO
+
+1. Install Node.js 18.18+ (Node 20 LTS recommended).
+2. Open this folder in VS Code / terminal — the folder containing package.json.
+3. Run: npm install
+4. Run: npm run dev
+5. Open: http://localhost:3000
+
+Production test:
+- npm run typecheck
+- npm run build
+- npm start
+
+Important:
+- This build contains demo-safe figures, certification placeholders and stock imagery.
+- Replace those items with verified NOVAQEN client assets before production.
+- API integrations are intentionally credential-free until client credentials are supplied.
